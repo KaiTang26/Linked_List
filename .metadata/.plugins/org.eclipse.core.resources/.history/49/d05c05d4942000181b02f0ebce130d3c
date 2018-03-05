@@ -1,0 +1,29 @@
+package GenericLinkedList;
+
+public class LinkedList3<T> {
+	
+	private class Node<T>{
+		
+		private T data;
+		private Node list;
+		
+		public Node(T data, Node list) {
+			super();
+			this.data = data;
+			this.list = list;
+		}
+
+		public Node() {
+			super();
+			// TODO Auto-generated constructor stub
+			data = null;
+			list = null;
+		}
+			
+	}
+	
+	private Node head;
+	
+	
+
+}

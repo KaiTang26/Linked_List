@@ -1,0 +1,10 @@
+package GenericLinkedList;
+
+public class LinkedList3<T> {
+	
+	private class Node<T>{
+		
+		private T data;
+	}
+
+}

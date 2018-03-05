@@ -2,7 +2,7 @@ package LinkedList2;
 
 public class LinkedList2 {
 	
-//	innter class Node can only be accessed by instance of LinkedList2 and class of LinkedList2
+//	Inner class Node can only be accessed by instance of LinkedList2 and class of LinkedList2
 	
 	private class Node{
 		private String item;
@@ -46,6 +46,8 @@ public class LinkedList2 {
 			position = position.list;
 		}
 	}
+	
+	
 	
 	
 

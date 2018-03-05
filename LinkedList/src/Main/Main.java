@@ -1,6 +1,8 @@
 package Main;
 
+import GenericLinkedList.LinkedList3;
 import LinkedList2.LinkedList2;
+
 import firstGenerationList.LinkedList1;
 
 public class Main {
@@ -43,7 +45,28 @@ public class Main {
 		
 		list2.outPut();
 		
+		LinkedList3<Integer> list3 = new LinkedList3<Integer>();
 		
+		list3.addItem(1);
+		list3.addItem(2);
+		list3.addItem(3);
+		list3.addItem(4);
+		
+		list3.outPut();
+		
+		LinkedList3<Integer> list4 = new LinkedList3<Integer>(list3);
+		
+		list4.setFirstNode(12);
+		
+		list4.outPut();
+		
+		list3.outPut();
+		
+		
+		
+	
+		
+	
 		
 		
 		

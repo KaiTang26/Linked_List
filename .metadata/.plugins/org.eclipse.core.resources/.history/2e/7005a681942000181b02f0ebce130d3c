@@ -1,0 +1,5 @@
+package GenericLinkedList;
+
+public class LinkedList3<T> {
+
+}

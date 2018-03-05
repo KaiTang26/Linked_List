@@ -1,9 +1,0 @@
-package firstGenerationList;
-
-public class LinkedList1 {
-	
-	private Node head;
-	
-	
-
-}
