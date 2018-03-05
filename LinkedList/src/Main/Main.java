@@ -1,5 +1,6 @@
 package Main;
 
+import LinkedList2.LinkedList2;
 import firstGenerationList.LinkedList1;
 
 public class Main {
@@ -8,6 +9,8 @@ public class Main {
 		// TODO Auto-generated method stub
 		
 		LinkedList1 list = new LinkedList1();
+		
+		LinkedList2 list2 = new LinkedList2();
 		
 		list.addToStart("shit", 2);
 		list.addToStart("food", 2);
@@ -21,7 +24,28 @@ public class Main {
 		
 		System.out.println(list.size());
 		
-		list.targetItem("shit");
+		
+		
+		list.deleteHeadNode();
+		
+		list.printOutList();
+		
+		System.out.println(list.size());
+		
+		
+		list2.addToStart("haha");
+		list2.addToStart("lala");
+		list2.addToStart("wawa");
+		
+		list2.outPut();
+		
+		list2.deleteHeadNode();
+		
+		list2.outPut();
+		
+		
+		
+		
 		
 
 	}

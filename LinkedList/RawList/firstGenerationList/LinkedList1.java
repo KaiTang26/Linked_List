@@ -62,6 +62,11 @@ public class LinkedList1 {
 		
 	}
 	
+	public void deleteHeadNode(){
+		
+		head = head.getList();
+	}
+	
 	
 	
 	
