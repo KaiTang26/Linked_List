@@ -1,0 +1,15 @@
+package firstGenerationList;
+
+public class LinkedList1 {
+	
+	private Node head;
+
+	public LinkedList1() {
+		super();
+		// TODO Auto-generated constructor stub
+		head = new Node();
+	}
+	
+	
+
+}

@@ -1,0 +1,31 @@
+package firstGenerationList;
+
+public class LinkedList1 {
+	
+	private Node head;
+
+	public LinkedList1() {
+		super();
+		// TODO Auto-generated constructor stub
+		head = new Node();
+	}
+	
+	public void addToStart(String item, int quantity) {
+		// TODO Auto-generated constructor stub
+		head = new Node(item, quantity, head);
+	}
+	
+	public void printOutList(){
+		
+		Node position = head;
+		
+		while(position.getList() == null){
+			
+		}
+	}
+	
+	
+	
+	
+
+}

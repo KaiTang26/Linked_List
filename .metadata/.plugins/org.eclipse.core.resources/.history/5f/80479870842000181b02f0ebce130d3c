@@ -1,0 +1,30 @@
+package firstGenerationList;
+
+public class Node {
+	
+	private String item;
+	
+	private int quantity;
+	
+	private Node list;
+
+	public Node() {
+		super();
+		// TODO Auto-generated constructor stub
+		item = null;
+		quantity = 0;
+		list = null;
+	}
+
+	public Node(String item, int quantity, Node list) {
+		super();
+		this.item = item;
+		this.quantity = quantity;
+		this.list = list;
+	}
+	
+	
+	
+	
+
+}

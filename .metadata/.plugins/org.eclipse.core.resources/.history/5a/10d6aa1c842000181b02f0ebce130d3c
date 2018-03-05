@@ -1,0 +1,8 @@
+package firstGenerationList;
+
+public class Node {
+	
+	private String item;
+	
+
+}
