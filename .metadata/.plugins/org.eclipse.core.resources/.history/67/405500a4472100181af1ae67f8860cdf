@@ -108,22 +108,6 @@ public class LinkedList3<T> {
 		
 		newHead = new Node<T>(position.data, null);
 		
-		end = newHead;
-		
-		position = position.list;
-		
-		while(position != null){
-			
-			end.list = new Node<T>(position.data, null);
-			
-			end = end.list;
-			
-			position = position.list;
-			
-		}
-		
-		return newHead;
-		
 		
 		
 	}

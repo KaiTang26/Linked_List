@@ -69,42 +69,13 @@ public class LinkedList3<T> {
 		
 	}
 	
-//	private Node<T> copyOf(Node<T> ohterhead){
-//		
-//		Node<T> position = ohterhead;
-//		
-//		Node<T> newHead;
-//		
-//		Node<T> end = null;
-//		
-//		newHead = new Node<T>(position.data, null);
-//		
-//		end = newHead;
-//		
-//		position = position.list;
-//		
-//		while(position != null){
-//			
-//			end.list = new Node<T>(position.data, null);
-//			
-//			end = end.list;
-//			
-//			position = position.list;
-//			
-//		}
-//		
-//		return newHead;
-//		
-//		
-//	}
-	
-	private Node<T> copyOf(Node<T> head){
+	private Node<T> copyOf(Node<T> ohterhead){
+		
+		Node<T> position = ohterhead;
 		
 		Node<T> newHead;
 		
-		Node<T> end;
-		
-		Node<T> position = head;
+		Node<T> end = null;
 		
 		newHead = new Node<T>(position.data, null);
 		
@@ -123,7 +94,6 @@ public class LinkedList3<T> {
 		}
 		
 		return newHead;
-		
 		
 		
 	}
