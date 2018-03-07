@@ -39,28 +39,47 @@ public class Main {
 		list2.addToStart("lala");
 		list2.addToStart("wawa");
 		
+//		list2.outPut();
+		
+//		list2.deleteHeadNode();
+		
+//		list2.outPut();
+		
+		LinkedList2.List2Iterator i = list2.Iterator();
+		
+		System.out.println(i.next());
+		i.changeHere("dada");
+		i.deleteNode();
+		System.out.println(i.next());
+		
+		
+		i.addHere("-----");
+		
 		list2.outPut();
 		
-		list2.deleteHeadNode();
+//		while(i.hasNext()){
+//		
+//			System.out.println(i.next());
+//		}
 		
-		list2.outPut();
-		
-		LinkedList3<Integer> list3 = new LinkedList3<Integer>();
-		
-		list3.addItem(1);
-		list3.addItem(2);
-		list3.addItem(3);
-		list3.addItem(4);
-		
-		list3.outPut();
-		
-		LinkedList3<Integer> list4 = new LinkedList3<Integer>(list3);
-		
-		list4.setFirstNode(12);
-		
-		list4.outPut();
-		
-		list3.outPut();
+//		LinkedList3<Integer> list3 = new LinkedList3<Integer>();
+//		
+//		list3.addItem(1);
+//		list3.addItem(2);
+//		list3.addItem(3);
+//		list3.addItem(4);
+//		
+//		list3.outPut();
+//		
+//		LinkedList3<Integer> list4 = new LinkedList3<Integer>(list3);
+//		
+//		list4.setFirstNode(12);
+//		
+//		list4.outPut();
+//		
+//		System.out.println("----------");
+//		
+//		list3.outPut();
 		
 		
 		
