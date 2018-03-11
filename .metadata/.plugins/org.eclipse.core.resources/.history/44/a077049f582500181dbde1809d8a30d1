@@ -1,0 +1,102 @@
+package DLL;
+
+import java.util.NoSuchElementException;
+
+public class DoubleList {
+	
+	private class TwoWayNode{
+		
+		private String item;
+		
+		private TwoWayNode previous;
+		
+		private TwoWayNode next;
+
+		public TwoWayNode(String item, TwoWayNode previous, TwoWayNode next) {
+			super();
+			this.item = item;
+			this.previous = previous;
+			this.next = next;
+		}
+
+		public TwoWayNode() {
+			super();
+			// TODO Auto-generated constructor stub
+		}
+		
+	}
+	
+	public class Doubleiterator{
+		
+		private TwoWayNode position = null;
+
+		public Doubleiterator() {
+			super();
+			position = head;
+		}
+		
+		public void reStart(){
+			position = head;
+		}
+		
+		
+		
+		public boolean hasNext(){
+			return (position != null);
+		}
+		
+		public String Next(){
+			
+			if(!hasNext()){
+				throw new NoSuchElementException();
+			}
+			
+			String toReturn = position.item;
+			
+			position = position.next;
+			
+			return toReturn;
+			
+		}
+	
+	}
+	
+	private TwoWayNode head;
+
+	public DoubleList() {
+		super();
+		// TODO Auto-generated constructor stub
+		head = null;
+	}
+
+//	this method use to add new node into the start of the list
+	public void addToStart(String item){
+		
+		TwoWayNode newHead = new TwoWayNode(item, null, head);
+		
+		if(head != null){		
+			head.previous = newHead;
+		}
+		
+		head = newHead;
+	}
+	
+	public Doubleiterator iterator(){
+		
+		return new Doubleiterator();
+		
+	}
+	
+	public boolean headNullTest(){
+		return (head != null);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

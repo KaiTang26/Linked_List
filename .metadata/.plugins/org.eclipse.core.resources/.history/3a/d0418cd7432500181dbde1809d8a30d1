@@ -1,0 +1,51 @@
+package DLL;
+
+public class DoubleList {
+	
+	private class TwoWayNode{
+		
+		private String item;
+		
+		private TwoWayNode previous;
+		
+		private TwoWayNode next;
+
+		public TwoWayNode(String item, TwoWayNode previous, TwoWayNode next) {
+			super();
+			this.item = item;
+			this.previous = previous;
+			this.next = next;
+		}
+
+		public TwoWayNode() {
+			super();
+			// TODO Auto-generated constructor stub
+		}
+		
+	}
+	
+	private TwoWayNode head;
+
+	public DoubleList() {
+		super();
+		// TODO Auto-generated constructor stub
+		head = null;
+	}
+
+	public void addTostart(String item, TwoWayNode previous, TwoWayNode next){
+		
+		TwoWayNode newHead = new TwoWayNode(item, null, head);
+		
+		if(head != null){		
+			head.previous = newHead;
+		}
+		
+		
+		
+	}
+	
+	
+	
+	
+
+}

@@ -1,0 +1,10 @@
+package DLL;
+
+public class DoubleList {
+	
+	private class TwoWayNode{
+		
+		private 
+	}
+
+}

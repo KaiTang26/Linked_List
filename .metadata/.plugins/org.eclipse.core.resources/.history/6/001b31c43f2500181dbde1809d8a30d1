@@ -1,0 +1,16 @@
+package DLL;
+
+public class DoubleList {
+	
+	private class TwoWayNode{
+		
+		private String item;
+		
+		private TwoWayNode previous;
+		
+		private TwoWayNode next;
+		
+		
+	}
+
+}
