@@ -1,0 +1,44 @@
+
+public class Stock {
+	
+	private class Node{
+		
+		private String item;
+		
+		private Node next;
+
+		public Node(String item, Node next) {
+			super();
+			this.item = item;
+			this.next = next;
+		}
+		
+	
+	}
+	
+	private Node head;
+
+	public Stock() {
+		super();
+		// TODO Auto-generated constructor stub
+		head = null;
+	}
+	
+	public void push(String a){
+	
+		head = new Node(a, head);
+	}
+	
+	public String pop(){
+		String returnValue;
+		
+		if(head == null){
+			throw new IllegalStateException();
+		}
+	}
+	
+	
+	
+	
+
+}

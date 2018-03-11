@@ -1,0 +1,29 @@
+
+public class Stock {
+	
+	private class Node{
+		
+		private String item;
+		
+		private Node next;
+
+		public Node(String item, Node next) {
+			super();
+			this.item = item;
+			this.next = next;
+		}
+		
+	
+	}
+	
+	private Node head;
+
+	public Stock() {
+		super();
+		// TODO Auto-generated constructor stub
+		head = null;
+	}
+	
+	 
+
+}

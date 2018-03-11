@@ -1,10 +1,13 @@
 package Main;
 
+
+
 import DLL.DoubleList;
 import GenericLinkedList.LinkedList3;
 import LinkedList2.LinkedList2;
-
+import QueueList.QueueList;
 import firstGenerationList.LinkedList1;
+import stock.Stock;
 
 public class Main {
 
@@ -82,21 +85,74 @@ public class Main {
 //		
 //		list3.outPut();
 		
-		DoubleList list4 = new DoubleList();
 		
 		
-		list4.addToStart("hello");
+		
+		
+		
+//		DoubleList list4 = new DoubleList();
 //		
-		list4.addToStart("haha");
-		
+//		
+//		list4.addToStart("hello");
+////		
+//		list4.addToStart("haha");
+//		
+//		list4.addToStart("wawa");
+//		
+////		i.reStart();
+//		
+//		DoubleList.Doubleiterator i = list4.iterator();
+//		
+//		
+//		System.out.println(i.Next());
+////		i.deletNode();
+//		
+//		i.addToHere("add");
 //		i.reStart();
+//		System.out.println(i.Next());
+////		i.deletNode();
+//		System.out.println(i.Next());
+//		
+//		
+//		System.out.println(list4.headNullTest());
 		
-		DoubleList.Doubleiterator i = list4.iterator();
+		
+//		Stock newStock = new Stock();
+//		
+//		newStock.push("1");
+//		
+//		newStock.push("2");
+//		
+//		newStock.push("3");
+//		
+//		newStock.push("4");
+//		
+//		while(newStock.isEmpty()){
+//			
+//			
+//			System.out.println(newStock.pop());
+//		}
 		
 		
-		System.out.println(i.Next());
+		QueueList queue = new QueueList();
 		
-		System.out.println(list4.headNullTest());
+		queue.addToBack("1");
+		
+		queue.addToBack("2");
+		
+		queue.addToBack("3");
+		
+		queue.addToBack("4");
+		
+		queue.addToBack("5");
+		
+		
+		while(!queue.isEmpty()){
+			
+			System.out.println(queue.outPut());
+		}
+		
+		
 	
 		
 		

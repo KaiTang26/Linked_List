@@ -63,6 +63,27 @@ public class DoubleList {
 			
 		}
 		
+		public void deletNode(){
+			position.previous.next = position.next;
+			
+			position.next.previous = position.previous;
+			
+			position = position.next;
+		}
+		
+		public void addToHere(String a){
+			
+			TwoWayNode temp = new TwoWayNode(a, position.previous, position);
+			
+			position.previous.next = temp;
+			
+			position.previous = temp;
+			
+			
+		}
+		
+		
+	
 		
 	
 	}

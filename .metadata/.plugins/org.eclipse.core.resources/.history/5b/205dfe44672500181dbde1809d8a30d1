@@ -1,0 +1,130 @@
+package Main;
+
+import DLL.DoubleList;
+import GenericLinkedList.LinkedList3;
+import LinkedList2.LinkedList2;
+
+import firstGenerationList.LinkedList1;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+//		LinkedList1 list = new LinkedList1();
+//		
+//		LinkedList2 list2 = new LinkedList2();
+//		
+//		list.addToStart("shit", 2);
+//		list.addToStart("food", 2);
+//		list.addToStart("drink", 2);
+//		list.addToStart("tims", 2);
+//		list.addToStart("coco", 2);
+//		list.addToStart("rice", 2);
+//		list.addToStart("shit", 10);
+//		
+//		list.printOutList();
+//		
+//		System.out.println(list.size());
+//		
+//		
+//		
+//		list.deleteHeadNode();
+//		
+//		list.printOutList();
+//		
+//		System.out.println(list.size());
+//		
+//		
+//		list2.addToStart("haha");
+//		list2.addToStart("lala");
+//		list2.addToStart("wawa");
+		
+//		list2.outPut();
+		
+//		list2.deleteHeadNode();
+		
+//		list2.outPut();
+		
+//		LinkedList2.List2Iterator i = list2.Iterator();
+//		
+//		System.out.println(i.next());
+//		i.changeHere("dada");
+//		i.deleteNode();
+//		System.out.println(i.next());
+//		
+//		
+//		i.addHere("-----");
+//		
+//		list2.outPut();
+		
+//		while(i.hasNext()){
+//		
+//			System.out.println(i.next());
+//		}
+		
+//		LinkedList3<Integer> list3 = new LinkedList3<Integer>();
+//		
+//		list3.addItem(1);
+//		list3.addItem(2);
+//		list3.addItem(3);
+//		list3.addItem(4);
+//		
+//		list3.outPut();
+//		
+//		LinkedList3<Integer> list4 = new LinkedList3<Integer>(list3);
+//		
+//		list4.setFirstNode(12);
+//		
+//		list4.outPut();
+//		
+//		System.out.println("----------");
+//		
+//		list3.outPut();
+		
+		
+		
+		
+		
+		
+//		DoubleList list4 = new DoubleList();
+//		
+//		
+//		list4.addToStart("hello");
+////		
+//		list4.addToStart("haha");
+//		
+//		list4.addToStart("wawa");
+//		
+////		i.reStart();
+//		
+//		DoubleList.Doubleiterator i = list4.iterator();
+//		
+//		
+//		System.out.println(i.Next());
+////		i.deletNode();
+//		
+//		i.addToHere("add");
+//		i.reStart();
+//		System.out.println(i.Next());
+////		i.deletNode();
+//		System.out.println(i.Next());
+//		
+//		
+//		System.out.println(list4.headNullTest());
+	
+		
+		
+		
+		
+		
+	
+		
+	
+		
+		
+		
+
+	}
+
+}

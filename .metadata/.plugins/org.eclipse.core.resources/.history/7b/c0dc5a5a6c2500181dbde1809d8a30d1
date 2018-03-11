@@ -1,0 +1,50 @@
+package QueueList;
+
+public class QueueList {
+	
+	private class Node{
+		
+		private String item;
+		
+		private Node previouse;
+
+		public Node(String item, Node previouse) {
+			super();
+			this.item = item;
+			this.previouse = previouse;
+		}
+		
+	
+	}
+
+	private Node front;
+	
+	private Node back;
+
+	public QueueList() {
+		super();
+		// TODO Auto-generated constructor stub
+		
+		front = null;
+		
+		back = null;
+	}
+	
+	public void addToBack(String itemName){
+		
+		Node temp = new Node(itemName, null);
+		
+		if(back == null && front == null){
+			back = temp
+			front = back;
+		}else{
+			
+			back = new Node(itemName, front);
+		}
+		
+		
+	}
+	
+	
+
+}

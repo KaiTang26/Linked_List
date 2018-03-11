@@ -1,0 +1,26 @@
+package QueueList;
+
+public class QueueList {
+	
+	private class Node{
+		
+		private String item;
+		
+		private Node next;
+
+		public Node(String item, Node next) {
+			super();
+			this.item = item;
+			this.next = next;
+		}
+		
+	
+	}
+
+	private Node front;
+	
+	private Node back;
+	
+	
+
+}
